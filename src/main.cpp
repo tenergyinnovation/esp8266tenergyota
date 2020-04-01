@@ -14,9 +14,6 @@
 #define VARIANT "esp32"
 #endif
 
-
-// #include <Preferences.h>
-// #include <Esp32WifiManager.h>
 #include <WiFiManager.h>
 
 #define USE_SERIAL Serial
