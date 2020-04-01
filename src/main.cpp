@@ -223,7 +223,7 @@ void loop()
     previousMillis = currentMillis;
     ledState = ledState == LOW ? HIGH : LOW;
     digitalWrite( BUILTIN_LED, ledState );
-    Serial.printf("version v1.2.1\r\n");
+    Serial.printf("version v1.2.2\r\n");
   }
   
 
